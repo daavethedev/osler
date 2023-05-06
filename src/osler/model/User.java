@@ -8,9 +8,10 @@ package osler.model;
 /**
  *
  * @author Wolverine 3
+ * User Model with enums to write to output file, initialized as null.
+ * 
  */
 public class User {
-
     private String uuid;
     private long deviceId;
     private int userStatus;

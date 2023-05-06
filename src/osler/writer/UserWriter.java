@@ -11,6 +11,8 @@ import osler.model.User;
 /**
  *
  * @author Wolverine 3
+ *
+ * Interface any UserWriter class must implement.
  */
 public interface UserWriter {
 

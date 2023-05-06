@@ -13,7 +13,12 @@ import osler.model.User;
 
 /**
  *
- * @author Wolverine 3
+ * @author Wolverine 3 Processor class reads byte string and sets enums for
+ * Authorization status and Training status.
+ *
+ * Takes a list of users and sets the data on the array received as constructor
+ * parameter.
+ *
  */
 public class UserStatusProcessor {
 

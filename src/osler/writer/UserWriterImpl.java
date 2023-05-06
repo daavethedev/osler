@@ -22,11 +22,11 @@ public class UserWriterImpl implements UserWriter {
         for (User user : usersList) {
             StringBuilder sb = new StringBuilder();
             sb.append(user.getUuid()
-                    + " "
+                    + "\t"
                     + user.getDeviceId()
-                    + " "
+                    + "\t"
                     + user.getAuthorisationStatus()
-                    + " "
+                    + "\t"
                     + user.getTrainingStatus());
             lines.add(sb.toString());
         }
